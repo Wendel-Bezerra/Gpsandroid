@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Registrar_Trilha">Registrar Trilha</string>
+    <string name="Gerenciar_Trilha">Gerenciar Trilha</string>
+    <string name="Compartilhar_Trilha">Compartilhar Trilha</string>
+    <string name="config">Configuração</string>
+    <string name="creditos">Sobre</string>
+    <string name="sobre">Créditos</string>
+    <string name="TextoCreditos">Este aplicativo foi desenvolvido como parte do projeto do curso de programação para dispositivos moveis Android da UCSAL. Ele permite rastrear trilhas usando GPS e exibir no mapa. Desenvolvedores: Pedro Vidigal, Wendel Bezerra.</string>
+
+</resources>

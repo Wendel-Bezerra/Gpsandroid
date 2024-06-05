@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Unidade de Velocidade -->
+    <PreferenceCategory
+        android:title="Unidade de Velocidade">
+
+        <ListPreference
+            android:key="velocidade_preference"
+            android:title="Unidade de Velocidade"
+            android:summary="Selecione a unidade de velocidade"
+            android:entries="@array/speed_unit_entries"
+            android:entryValues="@array/speed_unit_values"
+            android:defaultValue="km/h" />
+
+    </PreferenceCategory>
+
+    <!-- Formato das Coordenadas Geográficas -->
+    <PreferenceCategory
+        android:title="Formato das Coordenadas Geográficas">
+
+        <ListPreference
+            android:key="coordenadas_preference"
+            android:title="Formato das Coordenadas"
+            android:summary="Selecione o formato das coordenadas"
+            android:entries="@array/coord_format_entries"
+            android:entryValues="@array/coord_format_values"
+            android:defaultValue="Graus" />
+
+    </PreferenceCategory>
+
+    <!-- Orientação do Mapa -->
+    <PreferenceCategory
+        android:title="Orientação do Mapa">
+
+        <ListPreference
+            android:key="orientacao_preference"
+            android:title="Orientação do Mapa"
+            android:summary="Selecione a orientação do mapa"
+            android:entries="@array/map_orientation_entries"
+            android:entryValues="@array/map_orientation_values"
+            android:defaultValue="Nenhuma" />
+
+    </PreferenceCategory>
+
+    <!-- Tipo do Mapa -->
+    <PreferenceCategory
+        android:title="Tipo do Mapa">
+
+        <ListPreference
+            android:key="tipo_mapa_preference"
+            android:title="Tipo do Mapa"
+            android:summary="Selecione o tipo do mapa"
+            android:entries="@array/map_type_entries"
+            android:entryValues="@array/map_type_values"
+            android:defaultValue="Vetorial" />
+
+    </PreferenceCategory>
+
+    <!-- Botão Salvar -->
+    <Preference
+        android:key="save_button"
+        android:title="Salvar"
+        android:summary="Clique para salvar as configurações" />
+
+    <!-- Botão Limpar Dados -->
+    <Preference
+        android:key="clear_data"
+        android:title="Limpar dados"
+        android:summary="Clique para limpar todos os dados do aplicativo" />
+
+</PreferenceScreen>

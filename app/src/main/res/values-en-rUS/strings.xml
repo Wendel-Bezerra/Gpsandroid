@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Registrar_Trilha">Register Track</string>
+    <string name="Gerenciar_Trilha">Manage Track</string>
+    <string name="Compartilhar_Trilha">Share Track</string>
+    <string name="config">Settings</string>
+    <string name="creditos">About</string>
+    <string name="sobre">Credits</string>
+    <string name="TextoCreditos">This application was developed as part of the UCSAL Android mobile programming course project. It allows you to track trails using GPS and display on the map. Developers: Pedro Vidigal, Wendel Bezerra.</string>
+
+</resources>

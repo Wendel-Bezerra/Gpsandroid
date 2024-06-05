@@ -1,0 +1,41 @@
+<resources>
+    <string-array name="speed_unit_entries">
+        <item>km/h (quilômetro por hora)</item>
+        <item>m/s (metro por segundo)</item>
+    </string-array>
+    <string-array name="speed_unit_values">
+        <item>km/h</item>
+        <item>m/s</item>
+    </string-array>
+
+    <string-array name="coord_format_entries">
+        <item>Graus [+/-DDD.DDDDD]</item>
+        <item>Graus-Minutos [+/-DDD:MM.MMMMM]</item>
+        <item>Graus-Minutos-Segundos [+/-DDD:MM:SS.SSSSS]</item>
+    </string-array>
+    <string-array name="coord_format_values">
+        <item>Graus</item>
+        <item>Graus-Minutos</item>
+        <item>Graus-Minutos-Segundos</item>
+    </string-array>
+
+    <string-array name="map_orientation_entries">
+        <item>Nenhuma (O usuário pode escolher manualmente a orientação do mapa)</item>
+        <item>North Up (Norte do mapa alinhado com o topo do dispositivo)</item>
+        <item>Course Up (Topo do mapa alinhado com a direção do deslocamento (rumo-bearing)</item>
+    </string-array>
+    <string-array name="map_orientation_values">
+        <item>Nenhuma</item>
+        <item>North Up</item>
+        <item>Course Up</item>
+    </string-array>
+
+    <string-array name="map_type_entries">
+        <item>Vetorial</item>
+        <item>Satélite</item>
+    </string-array>
+    <string-array name="map_type_values">
+        <item>Vetorial</item>
+        <item>Satélite</item>
+    </string-array>
+</resources>
